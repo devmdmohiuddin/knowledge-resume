@@ -11,7 +11,7 @@
 }
 
 body {
-  font: normal 1rem/1.5 'Arial', sans-serif;
+  font: normal 1rem/1.5 "Arial", sans-serif;
   background: var(--primary-color);
   color: #fff;
   overflow-x: hidden;
@@ -33,7 +33,6 @@ h1 {
   font-size: 2.3rem;
 }
 
-
 #timeline ul {
   background: var(--primary-color);
   padding: 50px 0;
@@ -54,9 +53,9 @@ h1 {
   width: 400px;
   padding: 1rem;
   background-color: var(--secondary-color);
-  transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out;
   visibility: hidden;
-  opacity: 0; 
+  opacity: 0;
 }
 
 /* Right Side */
@@ -73,7 +72,7 @@ h1 {
 
 /* Dots */
 #timeline ul li::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   width: 25px;
@@ -89,7 +88,7 @@ h1 {
 
 /* Arrow Base */
 #timeline div:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 5px;
   width: 0;
@@ -128,7 +127,7 @@ h1 {
   }
 
   #timeline ul li:nth-child(even) div {
-    left: -334px
+    left: -334px;
   }
 }
 
@@ -143,11 +142,11 @@ h1 {
 
   #timeline ul li:nth-child(even) div {
     left: 40px;
-  }  
+  }
 
   #timeline ul li:nth-child(even) div:before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent var(--secondary-color) transparent transparent; 
+    border-color: transparent var(--secondary-color) transparent transparent;
   }
 }
